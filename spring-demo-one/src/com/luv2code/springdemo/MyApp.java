@@ -2,10 +2,14 @@ package com.luv2code.springdemo;
 
 public class MyApp {
 
-	public static void main (String args[])
-	{
-		BaseballCoach theCoach = new BaseballCoach();
+	public static void main(String args[]) {
 		
-		System.out.println(theCoach.getDailyWorkOut());
-	}
+		   Coach theCoach = new BaseballCoach(); 
+		   Coach tcoach = new TrackCoach();
+		  
+		  System.out.println(theCoach.getDailyWorkOut()); //
+		  System.out.println(tcoach.getDailyWorkOut());
+		 	}
+	
+	
 }
